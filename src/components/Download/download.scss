@@ -1,0 +1,48 @@
+.download {
+    height: 600px;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right center;
+    background-color: rgb(41, 65, 171);
+    .container {
+        .download_content {
+            p {
+                padding: 82px 0px 50px 0px;
+                font-size: 14px;
+                font-weight: 600px;
+                letter-spacing: 0.1em;
+                color: #1ed760;
+            }
+            h1 {
+                font-size: 60px;
+                color: #1ed760;
+                letter-spacing: -0.02em;
+                font-weight: 900;
+                margin-bottom: 30px;
+            }
+            .sub_header {
+                margin: 32px 0px;
+                max-width: 558px;
+                h2 {
+                    font-size: 24px;
+                    color: #1ed760;
+                    font-weight: 400;
+                }
+            }
+            .button {
+                button {
+                    width: 220px;
+                    border: 1px solid rgb(41, 65, 171);
+                    border-radius: 500px;
+                    background-color: #1ed760;
+                    padding: 15px;
+                    a {
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

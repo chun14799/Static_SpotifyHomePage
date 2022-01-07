@@ -1,0 +1,102 @@
+@import "../../grid";
+
+footer {
+    background-color: black;
+    height: 530px;
+    padding: 80px 0px 50px;
+    .row {
+        .logo {
+            height: 40px;
+            width: 132px;
+        }
+        .footer_content {
+            margin-top: 10px;
+            .footer_title {
+                color: #919496;
+                font-size: 14px;
+                font-weight: 900;
+                letter-spacing: 0.08em;
+            }
+            li {
+                color: white;
+                font-size: 16px;
+                font-weight: 400;
+                padding-bottom: 20px;
+                cursor: pointer;
+                &:hover {
+                    color: #1ed760;
+                    &:first-child {
+                        color: #919496;
+                    }
+                }
+            }
+        }
+        .social_icon {
+            .icon {
+                display: flex;
+                justify-content: space-between;
+                li {
+                    width: 54px;
+                    height: 54px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid black;
+                    border-radius: 50%;
+                    background-color: #222326;
+                    a {
+                        i {
+                            color: white;
+                            font-size: 26px;
+                            font-weight: 400;
+                            display: block;
+                            &:hover {
+                                color: #1ed760;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .language {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #919496;
+        span {
+            display: block;
+            font-size: 12px;
+            margin-left: 5px;
+            cursor: pointer;
+            &:hover {
+                color: #1ed760;
+            }
+        }
+    }
+    .bottom {
+        margin-top: 10px;
+        color: #919496;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .right_bottom {
+            display: flex;
+            align-items: center;
+            li {
+                margin-left: 15px;
+                cursor: pointer;
+                &:hover {
+                    color: #1ed760;
+                }
+            }
+        }
+        .left_bottom {
+            span {
+                margin-left: 5px;
+            }
+        }
+    }
+}

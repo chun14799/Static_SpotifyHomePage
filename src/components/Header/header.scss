@@ -1,0 +1,31 @@
+header {
+    background-color: black;
+    .container {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            .logo {
+                height: 40px;
+                width: 132px;
+            }
+
+            .header_title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                li {
+                    padding: 0px 10px;
+                    color: white;
+                    font-style: bold;
+                    font-weight: 600;
+                    cursor: pointer;
+                    &:hover {
+                        color: #1ed760;
+                    }
+                }
+            }
+        }
+    }
+}
